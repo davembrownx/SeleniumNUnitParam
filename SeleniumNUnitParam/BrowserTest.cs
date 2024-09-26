@@ -38,7 +38,7 @@ namespace SeleniumNUnitParam
          */
             int x = 1;
             int y = 1;
-            Assert.That(z, Is.EqualTo(y),"The text selenium doest not exist");
+            Assert.That(x, Is.EqualTo(y),"The text selenium doest not exist");
 
         }
 
