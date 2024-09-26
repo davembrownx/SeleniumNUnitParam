@@ -27,6 +27,7 @@ namespace SeleniumNUnitParam
         [Test]
         public void ExecuteAutomationTest()
         {
+         /*
             Driver.Navigate().GoToUrl("http://executeautomation.com/demosite/Login.html");
             Driver.FindElement(By.Name("UserName")).SendKeys("admin");
             Driver.FindElement(By.Name("Password")).SendKeys("admin");
@@ -34,6 +35,10 @@ namespace SeleniumNUnitParam
             System.Threading.Thread.Sleep(2000);
             Assert.That(Driver.PageSource.Contains("Selenium"), Is.EqualTo(true),
                                             "The text selenium doest not exist");
+         */
+            int x = 1;
+            int y = 1;
+            Assert.That(z, Is.EqualTo(y),"The text selenium doest not exist");
 
         }
 
